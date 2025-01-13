@@ -21,7 +21,7 @@ with st.sidebar:
     inquilino2 = st.text_input("Inquilino 2")
     inquilino3 = st.text_input("Inquilino 3")
     
-    num_compañeros = st.text_input("¿Cuántos nuevos compañeros quieres buscar?")
+    num_compañeros = st.text_input("¿Cuántos nuevos compañeros buscas?")
     
     if st.button('BUSCAR NUEVOS COMPAÑEROS'):
         # Verifica que el número de compañeros sea un valor válido
